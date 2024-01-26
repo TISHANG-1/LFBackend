@@ -1,4 +1,4 @@
-package com.tishang.websocket.dto;
+package com.tishang.websocket.dto.ChatRoom;
 
 import lombok.* ;
 import org.springframework.data.annotation.Id;

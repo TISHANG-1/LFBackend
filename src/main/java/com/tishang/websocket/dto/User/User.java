@@ -1,4 +1,4 @@
-package com.tishang.websocket.dto;
+package com.tishang.websocket.dto.User;
 
 import com.tishang.websocket.Enum.Status;
 import lombok.Getter ;

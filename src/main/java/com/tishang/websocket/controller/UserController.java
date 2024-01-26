@@ -1,7 +1,7 @@
 package com.tishang.websocket.controller;
 
 import com.tishang.websocket.Service.UserService;
-import com.tishang.websocket.dto.User;
+import com.tishang.websocket.dto.User.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.messaging.handler.annotation.MessageMapping;

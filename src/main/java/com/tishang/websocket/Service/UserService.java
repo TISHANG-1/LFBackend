@@ -1,8 +1,8 @@
 package com.tishang.websocket.Service;
 
 import com.tishang.websocket.Enum.Status;
-import com.tishang.websocket.dto.User;
-import com.tishang.websocket.dto.UserRepository;
+import com.tishang.websocket.dto.User.User;
+import com.tishang.websocket.dto.User.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
