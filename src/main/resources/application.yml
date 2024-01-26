@@ -1,12 +1,8 @@
 spring:
   data:
     mongodb:
-      username: tishang
-      password: tishang
-      host: localhost
-      port: 27017
-      database : chat_app
-      authentication-database: admin
+        uri: mongodb+srv://tishangprajapati:tishangprajapati@chatbackend.c1sosph.mongodb.net/?retryWrites=true&w=majority
+        database: ChatBackend
 
-server:
-  port: 8088
+
+
