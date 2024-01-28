@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+        uri: mongodb+srv://tishangprajapati:tishangprajapati@chatbackend.c1sosph.mongodb.net/?retryWrites=true&w=majority
+        database: ChatBackend
+
+
+
