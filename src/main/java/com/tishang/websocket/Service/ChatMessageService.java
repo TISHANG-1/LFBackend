@@ -22,6 +22,9 @@ public class ChatMessageService {
         chatMessageRepository.save(chatMessage) ;
         return chatMessage;
     }
+    public List<ChatMessage> findCommonMessage(String senderId){
+        return chatMessageRepository.findByChatId(senderId);
+    }
     public List<ChatMessage> findChatMessages(
             String senderId , String recipientId
     ){

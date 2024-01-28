@@ -18,7 +18,11 @@ public class ChatRoomService {
     ){
         return chatRoomRepository.findBySenderIdAndRecipientId(senderId, recipientId).map(ChatRoom::getChatId).or(()->{
              if(createNewRoomIfNotExists){
-                  var chatId =createChatId(senderId , recipientId) ;
+                 var  chatId = "" ;
+                  if(recipientId.equals("commonroom@tishang.com")){
+                       chatId = recipientId ;
+                  }
+                  else   chatId =createChatId(senderId , recipientId) ;
                   return Optional.of(chatId) ;
              }
              return Optional.empty();

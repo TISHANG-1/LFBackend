@@ -14,6 +14,7 @@ public class UserService
 {
     private final UserRepository repository ;
     public void  saveUser(User user){
+
         user.setStatus(Status.ONLINE) ;
         repository.save(user) ;
     }
@@ -28,7 +29,8 @@ public class UserService
     }
 
     public List<User> findConnectedUser(){
-      return repository.findAllByStatus(Status.ONLINE);
+//        return repository.findAll() ;
+        return repository.findAllByStatus(Status.ONLINE);
     }
 
 }
